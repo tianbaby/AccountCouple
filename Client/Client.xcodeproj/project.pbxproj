@@ -14,6 +14,12 @@
 		94EA368D1C303D4C00526419 /* Client.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94EA368B1C303D4C00526419 /* Client.xcdatamodeld */; };
 		94EA368F1C303D4C00526419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94EA368E1C303D4C00526419 /* Assets.xcassets */; };
 		94EA36921C303D4C00526419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94EA36901C303D4C00526419 /* LaunchScreen.storyboard */; };
+		E0ECB36D1C4D5FEF003C98F9 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ECB36B1C4D5FEF003C98F9 /* AVOSCloud.framework */; };
+		E0ECB36E1C4D5FEF003C98F9 /* AVOSCloudIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ECB36C1C4D5FEF003C98F9 /* AVOSCloudIM.framework */; };
+		E0ECB3761C4D608D003C98F9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ECB3751C4D608D003C98F9 /* SystemConfiguration.framework */; };
+		E0ECB3781C4D6094003C98F9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ECB3771C4D6094003C98F9 /* MobileCoreServices.framework */; };
+		E0ECB37A1C4D609C003C98F9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ECB3791C4D609C003C98F9 /* CoreTelephony.framework */; };
+		E0ECB37C1C4D60A4003C98F9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ECB37B1C4D60A4003C98F9 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,16 @@
 		94EA368E1C303D4C00526419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94EA36911C303D4C00526419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94EA36931C303D4C00526419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0ECB36B1C4D5FEF003C98F9 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
+		E0ECB36C1C4D5FEF003C98F9 /* AVOSCloudIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloudIM.framework; sourceTree = "<group>"; };
+		E0ECB3751C4D608D003C98F9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E0ECB3771C4D6094003C98F9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E0ECB3791C4D609C003C98F9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E0ECB37B1C4D60A4003C98F9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E0ECB37F1C4E097C003C98F9 /* AppConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppConstant.h; path = Constant/AppConstant.h; sourceTree = "<group>"; };
+		E0ECB3801C4E09BB003C98F9 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constant.h; path = Constant/Constant.h; sourceTree = "<group>"; };
+		E0ECB3811C4E0A41003C98F9 /* AVOSConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVOSConstant.h; path = Constant/AVOSConstant.h; sourceTree = "<group>"; };
+		E0ECB3821C4E0B2D003C98F9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0ECB37C1C4D60A4003C98F9 /* CoreLocation.framework in Frameworks */,
+				E0ECB37A1C4D609C003C98F9 /* CoreTelephony.framework in Frameworks */,
+				E0ECB3781C4D6094003C98F9 /* MobileCoreServices.framework in Frameworks */,
+				E0ECB3761C4D608D003C98F9 /* SystemConfiguration.framework in Frameworks */,
+				E0ECB36D1C4D5FEF003C98F9 /* AVOSCloud.framework in Frameworks */,
+				E0ECB36E1C4D5FEF003C98F9 /* AVOSCloudIM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +66,7 @@
 		94EA36731C303D4C00526419 = {
 			isa = PBXGroup;
 			children = (
+				E0ECB3691C4D5FE5003C98F9 /* Framework */,
 				94EA367E1C303D4C00526419 /* Client */,
 				94EA367D1C303D4C00526419 /* Products */,
 			);
@@ -60,6 +83,7 @@
 		94EA367E1C303D4C00526419 /* Client */ = {
 			isa = PBXGroup;
 			children = (
+				E0ECB37D1C4E095C003C98F9 /* Class */,
 				94EA36821C303D4C00526419 /* AppDelegate.h */,
 				94EA36831C303D4C00526419 /* AppDelegate.m */,
 				94EA36851C303D4C00526419 /* ViewController.h */,
@@ -78,8 +102,48 @@
 			isa = PBXGroup;
 			children = (
 				94EA36801C303D4C00526419 /* main.m */,
+				E0ECB3821C4E0B2D003C98F9 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0ECB3691C4D5FE5003C98F9 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				E0ECB37B1C4D60A4003C98F9 /* CoreLocation.framework */,
+				E0ECB3791C4D609C003C98F9 /* CoreTelephony.framework */,
+				E0ECB3771C4D6094003C98F9 /* MobileCoreServices.framework */,
+				E0ECB3751C4D608D003C98F9 /* SystemConfiguration.framework */,
+				E0ECB36A1C4D5FEF003C98F9 /* AVOSCloud */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		E0ECB36A1C4D5FEF003C98F9 /* AVOSCloud */ = {
+			isa = PBXGroup;
+			children = (
+				E0ECB36B1C4D5FEF003C98F9 /* AVOSCloud.framework */,
+				E0ECB36C1C4D5FEF003C98F9 /* AVOSCloudIM.framework */,
+			);
+			path = AVOSCloud;
+			sourceTree = "<group>";
+		};
+		E0ECB37D1C4E095C003C98F9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E0ECB37E1C4E0962003C98F9 /* Constant */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		E0ECB37E1C4E0962003C98F9 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				E0ECB37F1C4E097C003C98F9 /* AppConstant.h */,
+				E0ECB3801C4E09BB003C98F9 /* Constant.h */,
+				E0ECB3811C4E0A41003C98F9 /* AVOSConstant.h */,
+			);
+			name = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +156,7 @@
 				94EA36781C303D4C00526419 /* Sources */,
 				94EA36791C303D4C00526419 /* Frameworks */,
 				94EA367A1C303D4C00526419 /* Resources */,
+				E0ECB3741C4D6030003C98F9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -113,6 +178,7 @@
 				TargetAttributes = {
 					94EA367B1C303D4C00526419 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8ZBW3J864V;
 					};
 				};
 			};
@@ -146,6 +212,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0ECB3741C4D6030003C98F9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK; do\nEXTRACTED_ARCHS=()\n\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\n\nfor ARCH in $ARCHS; do\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\n\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\n/usr/bin/codesign -f -s \"${CODE_SIGN_IDENTITY}\" $FRAMEWORK\ndone";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		94EA36781C303D4C00526419 /* Sources */ = {
@@ -265,9 +347,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: QINGYUN LI (4Q7Y229GC9)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AVOSCloud",
+				);
+				GCC_PREFIX_HEADER = Client/PrefixHeader.pch;
 				INFOPLIST_FILE = Client/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tianyue.Client;
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-licucore",
+					"-ObjC",
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liangxie.count;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -276,9 +370,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: QINGYUN LI (4Q7Y229GC9)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AVOSCloud",
+				);
+				GCC_PREFIX_HEADER = Client/PrefixHeader.pch;
 				INFOPLIST_FILE = Client/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tianyue.Client;
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-licucore",
+					"-ObjC",
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liangxie.count;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -302,6 +408,7 @@
 				94EA36981C303D4C00526419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
